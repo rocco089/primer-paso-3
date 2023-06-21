@@ -1,0 +1,234 @@
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+   }
+   .row{
+       display: flex;
+       flex-wrap: wrap;
+       margin: 10px;
+   }
+   .column{
+       flex: 1;
+       padding: 10px;
+   }
+   @media (max-width: 600px) {
+       .column {
+           flex: 100%;
+       }
+   }
+   h1{
+    color:#00ff7f;
+   }
+   h2{
+    color: #00ff7f;
+   }
+   body{
+    background-color: rgb(190, 0, 0);
+    font-family: monospace;
+    background-image: linear-gradient(to bottom, #1c28aa, #2933a7, #343ea7, #4049a5, #4a51a5, #545ba8) ;
+   }
+   p{
+    color: #00ff7f;
+   }
+   .container-nav {
+    position: relative;
+  font-size: 0.9em;
+  padding: 0.7em 1.4em;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5em;
+  box-shadow: 0.5em 0.5em 0.5em #0000004d;
+    font-family: monospace;
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-image: linear-gradient(to bottom,  #3a11ac, #491faa, #442dad);
+border-color: #101768;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    color: #00ff7f;
+  }
+  
+  
+  li>a {
+    padding: 8px 24px;
+    color: #00ff7f;
+  }
+  
+  
+  li {
+    list-style-type: none;
+    color: #00ff7f;
+  }
+  
+  
+  a {
+    color: white;
+    text-decoration:none;
+    color: #00ff7f;
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  .jko {
+    color: #00ff7f ;
+  }
+  
+  .button-menu-toggle {
+    color: #00ff7f;
+    display: none;
+    background-image: linear-gradient(to bottom, #1c28aa, #2933a7, #343ea7);
+  }
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+    .nav-links { 
+      display: none;
+    }
+    
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+   
+    .nav-links.nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+  
+  
+    }
+    }
+  .li1 {
+    color: #01db6e ;
+  }
+  .li2 {
+    color: #01cf68 ;
+  }
+  .li3 {
+    color: #02b95e ;
+  }
+.imagenes {
+  
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.gretting {
+  text-align: center;
+}
+.loer {
+  color: rgb(49, 22, 51);
+}
+.holas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+footer button {
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  font-size: 0.9em;
+  padding: 0.7em 1.4em;
+  background-image: linear-gradient(to bottom,  #3a11ac, #491faa, #442dad);
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5em;
+  color: #00ff7f;
+  box-shadow: 0.5em 0.5em 0.5em #0000004d;
+}
+footer button::before {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: linear-gradient(123deg,  #00ff7f 0%, #00ff7f 50%, #01d46b 50%, #3a11ac 60%);
+  border-radius: 0 0 0.5em 0;
+  box-shadow: 0.2em 0.2em 0.2em #0000004d;
+  transition: 0.3s;
+}
+footer button:hover::before{
+  width: 1.6em;
+  height: 1.6em;
+}
+footer button:active {
+  box-shadow: 0.2em 0.2em 0.3em #0000004d;
+  transform: translate(0.1em, 0.1em);
+}
+footer button, footer button:hover {
+  color: #00ff7f
+}
+.service {
+  text-align: center;
+  margin: 20px;
+  width: 30%;
+  display: inline-block;
+  color: #00ff7f;
+  font-family: monospace;
+}
+.holap {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.pop {
+  color: git commit -m "cambio1"rgb(255, 255, 255);
+  font-family: monospace;
+ }
+ .jjo {
+  padding: 10px;
+  background-image: linear-gradient(to bottom, #2b0231 , #3d0446,#490753,#690c77, #890f9c)
+ }
+ #jjop {
+ zoom: 1.25;
+}
+ #jjjo {
+  zoom: 1.5;
+ }
+ #j {
+  zoom: 50%;
+ }
